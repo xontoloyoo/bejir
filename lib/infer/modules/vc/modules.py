@@ -11,7 +11,7 @@ import torch
 from io import BytesIO
 from lib.infer.infer_libs.audio import load_audio
 from lib.infer.infer_libs.audio import wav2
-from lib.infer.infer_libs.infer_pack.model import (
+from lib.infer.infer_pack.models import (
     SynthesizerTrnMs256NSFsid,
     SynthesizerTrnMs256NSFsid_nono,
     SynthesizerTrnMs768NSFsid,
