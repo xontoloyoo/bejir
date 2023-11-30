@@ -9,10 +9,9 @@ BASE_DIR = Path.cwd()
 # Daftar tupel dengan nama model dan direktori tujuan
 download_targets = [
     ('hubert_base.pt', 'assets/hubert', 'donlot_rh'),
-    ('rmvpe.pt', 'assets/rmvpe', 'donlot_rh')
-    ('fcpe.pt', 'assets/fcpe', 'donlot_rh')
-  
-    ('tiny.pth', 'torchcrepe/assets', 'donlot_rh')
+    ('rmvpe.pt', 'assets/rmvpe', 'donlot_rh'),
+    ('fcpe.pt', 'assets/fcpe', 'donlot_rh'),
+    ('tiny.pth', 'torchcrepe/assets', 'donlot_rh'),
     ('full.pth', 'torchcrepe/assets', 'donlot_rh')
 ]
 
